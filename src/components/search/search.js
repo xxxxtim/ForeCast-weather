@@ -13,7 +13,16 @@ const Search = (onSearchChange) => {
       geoApiOption
     )
       .then((response) => response.json())
-      .then((response) => console.log(response))
+      .then((response) => {
+        return {
+          options: response.data.map((city) => {
+            return {
+              value: `${city.latitude} ${city.longtitude}`,
+              label: `${city.name},${city.countryCode}`,
+            };
+          }),
+        };
+      })
       .catch((err) => console.error(err));
   };
   return (

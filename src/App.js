@@ -1,6 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
+// import component
 import Search from "./components/search/search";
+import CurrentWeather from "./components/currentWeather/current-weather";
 
 function App() {
   const handleOnSearchChagne = (searchData) => {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChagne} />
+      <CurrentWeather />
     </div>
   );
 }
