@@ -21,7 +21,7 @@ function App() {
     const currentWeatherFetch = () =>
       axios
         .get(
-          `${WEATHER_API_URL}/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}`
+          `${WEATHER_API_URL}/weather?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
         )
         .then((response) => response.data)
         .catch((error) => console.log(error));
@@ -34,7 +34,7 @@ function App() {
     const forecastWeatherFetch = () =>
       axios
         .get(
-          `${WEATHER_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}`
+          `${WEATHER_API_URL}/forecast?lat=${lat}&lon=${lon}&appid=${WEATHER_API_KEY}&units=metric`
         )
         .then((response) => response.data)
         .catch((error) => console.log(error));
