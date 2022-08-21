@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/xxxxtim/ForeCast-weather/static/css/main.74e3b794.css",
+    "main.js": "/xxxxtim/ForeCast-weather/static/js/main.a9b32fd6.js",
+    "static/js/787.d9312eb8.chunk.js": "/xxxxtim/ForeCast-weather/static/js/787.d9312eb8.chunk.js",
+    "index.html": "/xxxxtim/ForeCast-weather/index.html",
+    "main.74e3b794.css.map": "/xxxxtim/ForeCast-weather/static/css/main.74e3b794.css.map",
+    "main.a9b32fd6.js.map": "/xxxxtim/ForeCast-weather/static/js/main.a9b32fd6.js.map",
+    "787.d9312eb8.chunk.js.map": "/xxxxtim/ForeCast-weather/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74e3b794.css",
+    "static/js/main.a9b32fd6.js"
+  ]
+}
