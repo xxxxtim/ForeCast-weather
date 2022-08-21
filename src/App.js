@@ -2,6 +2,8 @@ import "./App.css";
 // import component
 import Search from "./components/search/search";
 import CurrentWeather from "./components/currentWeather/current-weather";
+import Forecast from "./components/forecast/forecast";
+// import api
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import { useState } from "react";
 import axios from "axios";
@@ -58,6 +60,7 @@ function App() {
     <div className="container">
       <Search onSearchChange={handleOnSearchChagne} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
+      {forecastWeather && <Forecast data={forecastWeather} />}
     </div>
   );
 }
