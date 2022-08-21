@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/forecast-weather/static/css/main.74e3b794.css",
-    "main.js": "/forecast-weather/static/js/main.88b6f849.js",
-    "static/js/787.d9312eb8.chunk.js": "/forecast-weather/static/js/787.d9312eb8.chunk.js",
-    "index.html": "/forecast-weather/index.html",
-    "main.74e3b794.css.map": "/forecast-weather/static/css/main.74e3b794.css.map",
-    "main.88b6f849.js.map": "/forecast-weather/static/js/main.88b6f849.js.map",
-    "787.d9312eb8.chunk.js.map": "/forecast-weather/static/js/787.d9312eb8.chunk.js.map"
+    "main.css": "/ForeCast-weather/static/css/main.74e3b794.css",
+    "main.js": "/ForeCast-weather/static/js/main.2203a65a.js",
+    "static/js/787.d9312eb8.chunk.js": "/ForeCast-weather/static/js/787.d9312eb8.chunk.js",
+    "index.html": "/ForeCast-weather/index.html",
+    "main.74e3b794.css.map": "/ForeCast-weather/static/css/main.74e3b794.css.map",
+    "main.2203a65a.js.map": "/ForeCast-weather/static/js/main.2203a65a.js.map",
+    "787.d9312eb8.chunk.js.map": "/ForeCast-weather/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74e3b794.css",
-    "static/js/main.88b6f849.js"
+    "static/js/main.2203a65a.js"
   ]
 }
